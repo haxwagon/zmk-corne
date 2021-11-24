@@ -37,6 +37,7 @@
                   &kp LGUI &mo 1   &kp RET   &kp SPACE &mo 2 &kp RALT
                         >;
                 };
+                
                 lower_layer {
 // -----------------------------------------------------------------------------------------
 // |  `   |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
@@ -63,6 +64,7 @@
    &kp LSHFT &kp PIPE &kp LBKT  &kp RBKT &kp LBRC  &kp RBRC    &trans    &trans   &trans          &trans   &trans   &kp ESC
                     	        &kp LGUI &trans    &kp RET     &kp SPACE &trans   &kp RALT
                         >;
+                };
 
                 adjust_layer {
 // -----------------------------------------------------------------------------------------
