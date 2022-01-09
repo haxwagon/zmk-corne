@@ -71,14 +71,14 @@
 
                 adjust_layer {
 // -----------------------------------------------------------------------------------------
-// | OUTTOG | F11 | F12 | F13 | F14 | F15 |   | F16 | F17 | F18 | F19 | F20  | ... |
-// | ...    | F1  | F2  | F3  | F4  | F5  |   | F6  | F7  | F8  | F9  | F10  |     |
-// | BTCLR  | BT1 | BT2 | BT3 | BT4 | BT5 |   | BT6 | BT7 | BT8 | BT9 | BT10 | ... |
+// | OUTTOG | F11 | F12 | F13 | F14 | F15 |   | F16 | F17 | F18 | F19 | F20  | BTCLR |
+// | ...    | F1  | F2  | F3  | F4  | F5  |   | F6  | F7  | F8  | F9  | F10  |       |
+// | ...    | BT1 | BT2 | BT3 | BT4 | BT5 |   | BT6 | BT7 | BT8 | BT9 | BT10 | ...   |
 //                      | ... | ... | ... |   | ... | ... | ... |
                         bindings = <
-   &out OUT_TOG &kp F11      &kp F12      &kp F13      &kp F14      &kp F15        &kp F16      &kp F17      &kp F18      &kp F19      &kp F20      &trans
+   &out OUT_TOG &kp F11      &kp F12      &kp F13      &kp F14      &kp F15        &kp F16      &kp F17      &kp F18      &kp F19      &kp F20      &bt BT_CLR
    &trans       &kp F1       &kp F2       &kp F3       &kp F4       &kp F5         &kp F6       &kp F7       &kp F8       &kp F9       &kp F10      &none
-   &bt BT_CLR   &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &bt BT_SEL 5 &bt BT_SEL 6 &bt BT_SEL 7 &bt BT_SEL 8 &bt BT_SEL 9 &trans 
+   &trans       &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &bt BT_SEL 5 &bt BT_SEL 6 &bt BT_SEL 7 &bt BT_SEL 8 &bt BT_SEL 9 &trans 
                     	                  &trans       &trans       &trans         &trans  &trans  &trans
                         >;
                 };
