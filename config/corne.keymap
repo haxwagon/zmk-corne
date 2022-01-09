@@ -57,14 +57,14 @@
 
                 raise_layer {
 // -----------------------------------------------------------------------------------------
-// |  ~  |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )   | ... |
-// | ... |  \  |  +  |  -  |  _  |  =  |   | BCK |     | INS | HME | PGUP |     |
-// | ... | '|' |  [  |  ]  |  {  |  }  |   | MNU |     | DEL | END | PGDN | ... |
-//                   | ... | ... | ... |   | ... | ... | ... |
+// |  ~  |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &   |  *  |  (  |  )   | ... |
+// | ... |  \  |  +  |  -  |  _  |  =  |   | BCK | HOME | INS | HME | PGUP |     |
+// | ... | '|' |  [  |  ]  |  {  |  }  |   | MNU | SRCH | DEL | END | PGDN | ... |
+//                   | ... | ... | ... |   | ... | ...  | ... |
                         bindings = <
-   &kp TILDE &kp EXCL &kp AT    &kp HASH  &kp DLLR  &kp PRCNT   &kp CARET   &kp AMPS &kp KP_MULTIPLY &kp LPAR &kp RPAR  &trans
-   &trans    &kp BSLH &kp PLUS  &kp MINUS &kp UNDER &kp EQUAL   &kp K_BACK  &none    &kp INS         &kp HOME &kp PG_UP &none
-   &trans    &kp PIPE &kp LBKT  &kp RBKT  &kp LBRC  &kp RBRC    &kp K_CMENU &none    &kp DEL         &kp END  &kp PG_DN &trans
+   &kp TILDE &kp EXCL &kp AT    &kp HASH  &kp DLLR  &kp PRCNT   &kp CARET   &kp AMPS        &kp KP_MULTIPLY &kp LPAR &kp RPAR  &trans
+   &trans    &kp BSLH &kp PLUS  &kp MINUS &kp UNDER &kp EQUAL   &kp K_BACK  &kp C_AC_HOME   &kp INS         &kp HOME &kp PG_UP &none
+   &trans    &kp PIPE &kp LBKT  &kp RBKT  &kp LBRC  &kp RBRC    &kp K_CMENU &kp C_AC_SEARCH &kp DEL         &kp END  &kp PG_DN &trans
                     	        &trans    &trans    &trans      &trans      &trans   &trans
                         >;
                 };
